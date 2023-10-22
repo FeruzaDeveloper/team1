@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
+ 
+ 
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header Section -->
+
+    
+    
+    
+<header class="header" id="header">
+    <nav class="navbar container">
+       <a href="#" class="brand">Green Coders</a>
+       <div class="burger" id="burger" style="color: aliceblue;">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+       </div>
+
+       <div class="menu" id="menu">
+          <ul class="menu-inner">
+             <li class="menu-item"><a href="#menu" class="menu-link">Home</a></li>
+             <li class="menu-item"><a href="#about" class="menu-link">About</a></li>
+             <li class="menu-item"><a href="#services" class="menu-link">Services</a></li>
+             <li class="menu-item"><a href="#team" class="menu-link">Team</a></li>
+             <li class="menu-item"><a href="#contact" class="menu-link">Contact</a></li>
+
+          </ul>
+       </div>
+    </nav>
+ </header>
+
+ <!-- Main Section -->
+ <main class="main">
+    <section class="section banner banner-section  lg:px-[10%]">
+       <div class="container banner-column">
+          
+          <div class="banner-inner">
+             <h1 class="heading-xl">Green Coders</h1>
+             <p class="paragraph">
+                    is Your Dreams
+             </p>
+             <button class="btn btn-darken btn-inline">
+                Our Products<i class="bx bx-right-arrow-alt"></i>
+             </button>
+             <div class="banner-links md-block">
+            
+              <a href=""><img src="data:image/png;base64,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"></a>
+ 
+              <a href=""><img width="48" height="48" src="https://img.icons8.com/material-outlined/24/github.png" alt="github"/></a>
+              <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAER0lEQVR4nO1ZzW8TRxRfpYVDjy09UThBu2t6Qy0BUuCfqFrRC0LqpYeqt6JccoNKCAkpQQmKoPRYUGkVmHFCZINoGwklfMWJEkLsJHZwjGMH52Oevf56aMZxEn9lZ+y1A5J/0pMsrz37+719782bt5rWRBNN1I6b+IHuhKMGgXaDwF86YeM6hSWdsKQw8RnG+DX+G52yVq0DW7SdxqF+2GcQ9ptBYd6ggCqmEwgYhF04QNlnDSd+gK58ahC4qlNmqhIvEUKZqVPo/rxvZU9DyH9B4LROIFor8RIjENEpfF834odHcJdBodd24rQktHr4vewl34cf6RRovckbmyIIv6c95EdwVyPJGxsi2KDjJu6uWUAjwsaomODQXRN5B4Ufdoq8kTcC31VFXh9c/sSgsLjTAnQC0apKLK/z9STW5orjpckkTixncCGetXoKV5TI893Rjk2q2A45Ac8+SmD/QhpTWdyAb217AZyLow/2K3hftAe2Ef9m3dt+toX1FtwNpiVygV2QY9+BLaJPqZO3y+HiRFJmzXneNFryF11lDcRPrHs7AKWss9kshiJLODnjL/j+zKOE1NqOfva1RPhAey3eTlfw9ioDnPD5cfSlD9cgvikKEVsH41L30SmckxFwW5b4KXfO26/KeDuPZCqFc8HX+HRyGsemZxASZsF1P7OoQFsFELhlHUL84LHNIl9KeDsfLuGlGD6f8gny4945TJjJkt8NLEgk8KaNygiIVvL21ekUhhMWGYmIKyJc5gRxbhMzfvEkyuHyC6kEztuitYAK9T8Utya+NVzy9mJ2HlPpdMX//DhsygsgLFG1gPZREz2xTNmwKQ6XvHkDQcxkthfe5orbLMDitHV4IJcDvd4UjsUyJeGSt9lgSAjbDgtWLURVIWSRxMV2b7yUfCC0iDJwhZQSWC6JVcoot3NDhTH/KhxBWXRNKSWwXBlV3cja7q3ik3Xy7jEfXhuaQtMi7vP4aUQhgXMb2a/WIURZq+JjxT+f+YWAW89m8R/3/9j70INRKK35xTjljqvt+JR9JdnMMb/Kwr/8tygE3Bj2CQHcOt0e9K5VfhJRUy2BdcrmpKd5vHVVWfzIwBo+nvSK8OHkb7iG8bjzDR4ZjONQJFNWwMOwagKz81o9DzR/PAng9X89+LtrGI85YwWtBy+5xeiZTsmTJyxx8A7bq6mATwRUBJx+8Aa77o9iq3O57PUOT7LgXPDzY6UE7tRU4eiPfWz3oZ73/UHIonc1K8LLkPI+RKqem/JZpZ0CqjGHE76tivyGCAI9OyigS7Pl5QWFvxtOnsDdk/fxQ/uGuwRIAwXcsW24WzTk7W5E2Jy0y/PlwGeVdRk5EgjXnLBKc1MCV/gGUztxxtfo5GVbazT47sjbDtXeiVvuP+y88g5bF3RgCx868bkN79n5wYOf7HIv8JgpTnkEnvNrvCUWXeW78Jq1iSa09x9vAV7LaYWk/U+hAAAAAElFTkSuQmCC"></a>
+              
+           </div>
+          </div>
+          <img class="banner-image" src="./img/Group 14.svg" alt="banner">
+          <div class="banner-links">
+            
+             <a href=""><img src="data:image/png;base64,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"></a>
+
+             <a href=""><img width="48" height="48" src="https://img.icons8.com/material-outlined/24/github.png" alt="github"/></a>
+             <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAER0lEQVR4nO1ZzW8TRxRfpYVDjy09UThBu2t6Qy0BUuCfqFrRC0LqpYeqt6JccoNKCAkpQQmKoPRYUGkVmHFCZINoGwklfMWJEkLsJHZwjGMH52Oevf56aMZxEn9lZ+y1A5J/0pMsrz37+719782bt5rWRBNN1I6b+IHuhKMGgXaDwF86YeM6hSWdsKQw8RnG+DX+G52yVq0DW7SdxqF+2GcQ9ptBYd6ggCqmEwgYhF04QNlnDSd+gK58ahC4qlNmqhIvEUKZqVPo/rxvZU9DyH9B4LROIFor8RIjENEpfF834odHcJdBodd24rQktHr4vewl34cf6RRovckbmyIIv6c95EdwVyPJGxsi2KDjJu6uWUAjwsaomODQXRN5B4Ufdoq8kTcC31VFXh9c/sSgsLjTAnQC0apKLK/z9STW5orjpckkTixncCGetXoKV5TI893Rjk2q2A45Ac8+SmD/QhpTWdyAb217AZyLow/2K3hftAe2Ef9m3dt+toX1FtwNpiVygV2QY9+BLaJPqZO3y+HiRFJmzXneNFryF11lDcRPrHs7AKWss9kshiJLODnjL/j+zKOE1NqOfva1RPhAey3eTlfw9ioDnPD5cfSlD9cgvikKEVsH41L30SmckxFwW5b4KXfO26/KeDuPZCqFc8HX+HRyGsemZxASZsF1P7OoQFsFELhlHUL84LHNIl9KeDsfLuGlGD6f8gny4945TJjJkt8NLEgk8KaNygiIVvL21ekUhhMWGYmIKyJc5gRxbhMzfvEkyuHyC6kEztuitYAK9T8Utya+NVzy9mJ2HlPpdMX//DhsygsgLFG1gPZREz2xTNmwKQ6XvHkDQcxkthfe5orbLMDitHV4IJcDvd4UjsUyJeGSt9lgSAjbDgtWLURVIWSRxMV2b7yUfCC0iDJwhZQSWC6JVcoot3NDhTH/KhxBWXRNKSWwXBlV3cja7q3ik3Xy7jEfXhuaQtMi7vP4aUQhgXMb2a/WIURZq+JjxT+f+YWAW89m8R/3/9j70INRKK35xTjljqvt+JR9JdnMMb/Kwr/8tygE3Bj2CQHcOt0e9K5VfhJRUy2BdcrmpKd5vHVVWfzIwBo+nvSK8OHkb7iG8bjzDR4ZjONQJFNWwMOwagKz81o9DzR/PAng9X89+LtrGI85YwWtBy+5xeiZTsmTJyxx8A7bq6mATwRUBJx+8Aa77o9iq3O57PUOT7LgXPDzY6UE7tRU4eiPfWz3oZ73/UHIonc1K8LLkPI+RKqem/JZpZ0CqjGHE76tivyGCAI9OyigS7Pl5QWFvxtOnsDdk/fxQ/uGuwRIAwXcsW24WzTk7W5E2Jy0y/PlwGeVdRk5EgjXnLBKc1MCV/gGUztxxtfo5GVbazT47sjbDtXeiVvuP+y88g5bF3RgCx868bkN79n5wYOf7HIv8JgpTnkEnvNrvCUWXeW78Jq1iSa09x9vAV7LaYWk/U+hAAAAAElFTkSuQmCC"></a>
+             
+          </div>
+       </div>
+    </section>
+ </main>
+
+  <div class="container lg:px-[10%]">
+    <div class="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1">
+      <div class="pt-[100px]">
+        <h1 class="lg:text-6xl md:text-6xl text-4xl">About</h1>
+        <br>
+        <p class="text-xl md:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cum consequuntur at alias eum libero ipsum dolores labore, vero temporibus itaque obcaecati soluta corrupti aliquid animi esse? Libero, dolor vero?</p>
+      </div>
+      <div>
+        <img src="./img/Group 24.png" alt="" class="w-[80%]">
+      </div>
+    </div>
+  </div>
+ </section>
+
+ <!---servise-->
+ <section>
+   <div id="services">
+  
+         <div class="row">
+           <h2 class="section-heading">Our Services</h2>
+         </div>
+         <div class="row">
+           <div class="column">
+             <div class="card">
+               <div class="icon-wrapper">
+                  <img src="./img/computer-dynamic-color.png" alt="">
+               </div>
+               <h3>Service Heading</h3>
+               <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                 consequatur necessitatibus eaque.
+               </p>
+             </div>
+           </div>
+           <div class="column">
+             <div class="card">
+               <div class="icon-wrapper">
+                  <img src="./img/chat-text-dynamic-color.png" alt="">
+               </div>
+               <h3>Service Heading</h3>
+               <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                 consequatur necessitatibus eaque.
+               </p>
+             </div>
+           </div>
+           <div class="column">
+             <div class="card">
+               <div class="icon-wrapper">
+                 <img src="./img/puzzle-dynamic-color.svg" alt="">
+               </div>
+               <h3>Service Heading</h3>
+               <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                 consequatur necessitatibus eaque.
+               </p>
+             </div>
+           </div>
+           <div class="column">
+             <div class="card">
+               <div class="icon-wrapper">
+                 <img src="./img/locker-dynamic-color.png" alt="">
+               </div>
+               <h3>Service Heading</h3>
+               <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                 consequatur necessitatibus eaque.
+               </p>
+             </div>
+           </div>
+           <div class="column">
+             <div class="card">
+               <div class="icon-wrapper">
+                  <img src="./img/color-palette-dynamic-color.png" alt="">
+               </div>
+               <h3>Service Heading</h3>
+               <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                 consequatur necessitatibus eaque.
+               </p>
+             </div>
+           </div>
+           <div class="column">
+             <div class="card">
+               <div class="icon-wrapper">
+                  <img src="./img/battery-dynamic-color.png" alt="">
+               </div>
+               <h3>Service Heading</h3>
+               <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                 consequatur necessitatibus eaque.
+               </p>
+             </div>
+           </div>
+         </div>
+       
+   
+ 
+   
+        </div>
+            
+ 
+     </div>
+   </div>
+ </section>
+
+ <div class="block md:hidden">
+   <br><br><br><br><br><br><br>
+
+ </div>
+ 
+ <!--team-->
+ <div id="team">
+
+
+ <div class="responsive-container-block container">
+  <p class="text-blk team-head-text">
+    Our Team
+  </p>
+  <div class="responsive-container-block">
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="./img/feruza img.jpg">
+        </div>
+        <p class="text-blk name">
+          Feruza Odiljonova 
+        </p>
+        <p class="text-blk position">
+          Developer 
+        </p>
+        <p class="text-blk feature-text">
+           Dasturlashga juda ham qiziqaman, maqsadim eng zo'r dasturchilar qatorida bo'lish :)
+        </p>
+        <div class="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="./img/muslima.jpg">
+        </div>
+        <p class="text-blk name">
+          Muslima Muhammadjonova 
+        </p>
+        <p class="text-blk position">
+          Frontend developer
+        </p>
+        <p class="text-blk feature-text">
+          Frontend developerman dasturlash juda ham yoqadi ayniqsa saytlar yaratish :)
+        </p>
+        <div class="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src=".">
+        </div>
+        <p class="text-blk name">
+          Ruqiyaxon 
+        </p>
+        <p class="text-blk position">
+         Fullstack
+        </p>
+        <p class="text-blk feature-text">
+          Insonlarga yordma berish va rivojlanishni kuchaytirish 
+        </p>
+        <div class="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png">
+        </div>
+        <p class="text-blk name">
+          Davis George
+        </p>
+        <p class="text-blk position">
+          CEO
+        </p>
+        <p class="text-blk feature-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png">
+        </div>
+        <p class="text-blk name">
+          Davis George
+        </p>
+        <p class="text-blk position">
+          CEO
+        </p>
+        <p class="text-blk feature-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png">
+        </div>
+        <p class="text-blk name">
+          Davis George
+        </p>
+        <p class="text-blk position">
+          CEO
+        </p>
+        <p class="text-blk feature-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png">
+        </div>
+        <p class="text-blk name">
+          Davis George
+        </p>
+        <p class="text-blk position">
+          CEO
+        </p>
+        <p class="text-blk feature-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png">
+        </div>
+        <p class="text-blk name">
+          Davis George
+        </p>
+        <p class="text-blk position">
+          CEO
+        </p>
+        <p class="text-blk feature-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- teams -->
+
+
+<!--contact-->
+<section id="contact">
+  
+  <h1 class="section-header">Contact</h1>
+  
+  <div class="contact-wrapper">
+  
+  <!-- Left contact page --> 
+    
+    <form id="contact-form" class="form-horizontal" role="form">
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+          <br><br>
+          
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+          <br><br>
+          
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+      
+      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+        <div class="alt-send-button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div>
+      
+      </button>
+      
+    </form>
+    
+  <!-- Left contact page --> 
+    
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+          
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+          
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+          
+        </ul>
+
+        <hr>
+        <ul class="social-media-list">
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-codepen" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>       
+        </ul>
+        <hr>
+
+        <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+
+      </div>
+    
+  </div>
+  
+</section>  
+  
+  
+
+    <!-- END OF teams -->
+ <script src="./app.js"></script>
+ <script src="./bot.js"></script>
+ <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+ <script src="https://cdn.tailwindcss.com"></script>
+
+</body>
+</html>
